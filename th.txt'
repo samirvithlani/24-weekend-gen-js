@@ -1,0 +1,70 @@
+programming language: c,cpp,java....
+scripting language: 
+scripting language is subset of programming language :
+js,python
+
+-------------------------------------------------------
+
+statically typed language:c,cpp,java
+we have to define data type of variable before using it.
+dynamic typed language:js,python
+we don't have to define data type of variable before using it.
+
+
+-------------------------------------------------------
+server side language:java,php,python
+client side language:js
+
+
+
+amazonr : login click : --data verify : server side language
+
+amazone : image [] -->zoom --> client side language
+
+java script is client side language.
+
+
+----------------------------------------------------
+
+compiler interpretr engine
+javascript compiler name is : babel
+
+to run javascript browse engine is required.
+
+very first engine was developd by netscape : spider monkey    firefox
+google developd v8 engine : chrome
+apple developd : nitro engine : safari
+microsoft developd : chakra engine : edge
+
+way to write js code:
+1. inline
+2. internal
+3. external
+
+.js file..
+
+to declare variable in js : var,let,const
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

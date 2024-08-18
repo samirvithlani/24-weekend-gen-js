@@ -46,6 +46,20 @@ way to write js code:
 to declare variable in js : var,let,const
 
 
+diff bw var let const...
+
+var : global scope
+let : block scope
+const : block scope
+
+
+.js file it self is block.. 
+
+block:
+{
+    
+}
+
 
 
 

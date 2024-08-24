@@ -63,25 +63,36 @@ block:
     
 }
 
+operatror:
+operator is symbol that perform some operation on operand.
+
+++ -- a++ : 
+
+a + b 
+
+a?b:c
+
+unary operator : it has only one operand.
+binary operator : it has two operand.
+ternary operator : it has three operand.
 
 
+1)arithmatic operator : +,-,*,/,%,++,--,**
+2)assignment operator : =,+=,-=,*=,/=,%=,**=
+3)comparison operator : ==,===,!=,!==,>,<,>=,<=
+4)logical operator : &&,||,!
+5)bitwise operator : &,|,^,~,<<,>>
+6)ternary operator : ?:
 
+------------------------------------------------------------
+decsion making statement:
+if else
+switch case
+looping statement:
 
+if(condition){
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+else{
+    
+}

@@ -112,3 +112,16 @@ T       -            T
 F        T          T
 F        F          F
 
+
+loop:
+
+type of loops:
+entry control loop : for,while
+exit control loop : do while
+
+for:
+
+for(initialization;condition;increment/decrement){
+    
+}
+

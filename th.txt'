@@ -147,3 +147,22 @@ for(initialization;condition;increment/decrement){
 5 * 1 = 1 = 5
 4
 2 * 2 = 2 = 4
+
+
+//task:
+please entee opening balance... 
+min op balacne required is 10000
+if user entered less then 10000 then ask again to enter opening balance.
+but give only 3 chance to enter opening balance.
+
+//100 -->enter again
+//12000 --> welcome to bank
+
+//100 -->enter again
+//200 -->enter again
+//300 -->enter again
+
+try again later...
+
+
+

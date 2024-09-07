@@ -165,4 +165,36 @@ but give only 3 chance to enter opening balance.
 try again later...
 
 
+lcm of 2 number:
+
+10 and 15
+
+10 : 10,20,30,40,50,60,70,80,90,100
+15 : 15,30,45,60,75,90,105,120,135,150
+
+// program to find the LCM of two integers
+
+// take input
+const num1 = prompt('Enter a first positive integer: ');
+const num2 = prompt('Enter a second positive integer: ');
+
+
+if(num1 > num2){
+    min = num1;
+}
+else{
+    min = num2;
+}
+
+// while loop
+while (true) {
+    //
+    if (min % num1 == 0 && min % num2 == 0) {
+        console.log(`The LCM of ${num1} and ${num2} is ${min}`);
+        break;
+    }
+    min++;
+}
+
+
 

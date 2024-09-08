@@ -196,5 +196,26 @@ while (true) {
     min++;
 }
 
+string :string
+array of character is string.
+array : collection of similar type of data.
+array store data in contigous memory location. in index form.
+index always start from 0.
+"royal" -->array index..
+[r][o][y][a][l] --> 5
+[0][1][2][3][4] --> length - 1
+
+mutable : can be change | modify
+immutable : can't be change | modify
+
+js string is immutable. with same reference we can't change the value of string.
+
+var x = "royal"
+x+"royal"
+x = "amit"
+
+
+
+
 
 

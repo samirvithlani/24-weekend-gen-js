@@ -1,0 +1,28 @@
+length --> find length of string   : number
+toUpperCase() --> convert string to uppercase : string
+toLowerCase() --> convert string to lowercase : string
+charAt() --> find character at specific index : string
+charCodeAt() --> find ascii value of character: number[assci value]
+indexOf() --> find index of character: number
+lastIndexOf() --> find last index of character : number
+includes() --> find character is present or not: boolean true | false
+replace() --> replace character : string
+slice() --> extract part of string : string
+substring() --> extract part of string : string
+split() --> convert string to array : array
+trim() --> remove white space from string : string
+trimStart() --> remove white space from start of string : string
+trimEnd() --> remove white space from end of string : string
+concat() --> join two string : string
+startsWith() --> find string start with specific character : boolean
+endsWith() --> find string end with specific character : boolean
+repeat() --> repeat string : string
+
+
+search() --> find index of character : number     ****
+match() --> find character : array
+
+padStart() --> add character at start of string : string
+padEnd() --> add character at end of string : string
+
+

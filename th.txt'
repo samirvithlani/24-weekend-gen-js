@@ -219,6 +219,22 @@ x = "hi this is india
 
 y ="hithisisindia"
 
+var sp =""
+var ep =""
+
+array:
+array is group of data.
+array stores data in contigous memory location. [][][][][][][][][][]
+array stores data in index form.
+array index always start from 0.
+
+int a = [10,20,45,67,89,90,88,66]
+//a --> index
+a[0]
+a[1]
+
+
+
 
 
 

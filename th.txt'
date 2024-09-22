@@ -235,6 +235,13 @@ a[1]
 
 
 
+push(): add element at the end of array.
+var x =900
+[1,2,3,4,89]
+
+[1,2,3,4,89,900]
+
+
 
 
 

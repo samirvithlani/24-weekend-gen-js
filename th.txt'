@@ -242,6 +242,101 @@ var x =900
 [1,2,3,4,89,900]
 
 
+functions: void main(){} function
+
+banking system:
+1. create account
+2. deposit
+3. withdraw
+4. check balance
+5 .fd
+6 loan
+7 kyc
+8 credit card
+
+chk : 500 line : 50  25000
+
+reuseability of code.
+
+type of function:
+pre define buitlin funciton
+
+user define function:
+
+---------------------------------
+type of funciton
+1) with return type and with argument
+2) with return type and without argument
+3) without return type and with argument   
+4) without return type and without argument
+
+----------------------------------------
+
+return type function name (param) 
+{
+    //body of function
+}
+
+//void return type main name (param)
+int main(){
+    //body of function
+}
+void main(){
+
+}
+
+----------------------------------------
+to create function in js we can use function keyword.
+proptotype
+
+funciton add(){
+
+}
+
+
+----------------------------------------
+advantage of using funciton:
+1) code reuseability
+2) easy to debug
+3) easy to maintain
+4) easy to understand
+5) reduce the complexity of code
+6) reduce the length of code
+7) improve the performance of code
+8) improve the readability of code
+
+1) 200 line....
+
+console.log("--------------------------------------------------------------------------------)
+console.log("--------------------------------------------------------------------------------)
+console.log("--------------------------------------------------------------------------------)
+console.log("--------------------------------------------------------------------------------)
+
+
+funciton drawline(){
+    //console.log("--------------------------------------------------------------------------------)
+    console.log("____________________________________________________________________________________________)
+}
+
+
+drawline()
+drawline()
+drawline()
+drawline()
+drawline()
+drawline()
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

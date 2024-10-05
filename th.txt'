@@ -326,20 +326,16 @@ drawline()
 drawline()
 drawline()
 
+function count(name,ch){
 
 
+}
 
 
+count("india","i")
 
+funciton printNo(sp,ep){
 
+}
 
-
-
-
-
-
-
-
-
-
-
+printNo(1,100)

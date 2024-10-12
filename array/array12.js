@@ -8,3 +8,5 @@ var data = record.map((d)=>{
     return [d[0],d[1]*50+d[2]*100]
 })
 console.log(data)
+
+

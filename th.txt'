@@ -339,3 +339,11 @@ funciton printNo(sp,ep){
 }
 
 printNo(1,100)
+
+//[[101,"ram","shrama"].[],[]]
+//[101,"ram sharma"]
+
+
+//taks 2
+//[["amit",10,20,20,30,40],["sumit",20,30,40,50,60],["ram",30,40,50,60,70]]
+//["amit",25.50]

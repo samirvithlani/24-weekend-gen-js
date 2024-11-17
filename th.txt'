@@ -347,3 +347,24 @@ printNo(1,100)
 //taks 2
 //[["amit",10,20,20,30,40],["sumit",20,30,40,50,60],["ram",30,40,50,60,70]]
 //["amit",25.50]
+
+
+student record:
+sname
+semail
+sage
+asmark
+...
+..'..
+
+JSON : javascript object notation
+
+object :
+
+key:value wrapped in {}
+
+10 filelds
+
+univercity:
+product:
+own json:

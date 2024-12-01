@@ -67,3 +67,11 @@ var companies = [
 //const google = companies.find((comp)=>comp.name === "Google").employees;
 const google = companies.find((comp)=>comp.name === "Google").employees.filter((emp)=>emp.post === "CEO");
 console.log(google);
+
+
+//map filter...
+
+var allFounders = companies.map((comp)=>comp.employees).map((emp)=>emp.filter((e)=>e.post === "Founder"));
+console.log(allFounders);
+var allFounders = companies.flatMap((comp)=>comp.employees).filter((emp)=>emp.post === "Founder");
+console.log(allFounders);

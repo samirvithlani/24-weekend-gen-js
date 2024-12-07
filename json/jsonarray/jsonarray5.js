@@ -55,4 +55,5 @@ const questions = [
 //find all questions of India
 //find all questions of Math
 //find all questions which has answer is New Delhi
+
 //find how many questions have answer is 1

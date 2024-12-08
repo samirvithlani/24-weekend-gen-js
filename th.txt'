@@ -368,3 +368,9 @@ key:value wrapped in {}
 univercity:
 product:
 own json:
+
+events:
+whatever happens on browser called event !
+
+DOM: document object model
+Window :

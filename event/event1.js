@@ -7,3 +7,27 @@ function checkClick(){
     text.innerHTML = "Hello"
     text.style.color="red"
 }
+
+const changeLink =()=>{
+
+    const link = document.getElementById("link") //<a>
+    console.log(link)
+    link.href = "https://www.hotstar.com"
+    link.innerHTML="Hotstar"
+
+}
+const changeLink1 =()=>{
+
+    const link = document.getElementById("link") //<a>
+    console.log(link)
+
+
+    setTimeout(()=>{
+        link.href = "https://www.hotstar.com"
+        link.innerHTML="Hotstar"
+    },3000)
+
+
+    
+
+}

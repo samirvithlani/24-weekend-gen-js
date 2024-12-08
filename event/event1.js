@@ -27,7 +27,16 @@ const changeLink1 =()=>{
         link.innerHTML="Hotstar"
     },3000)
 
+}
 
+function createBox(){
+
+    const box = document.getElementById("box")
+    console.log(box)
+    box.style.height="200px"
+    box.style.width="200px"
+    box.style.backgroundColor="blue"
     
+
 
 }

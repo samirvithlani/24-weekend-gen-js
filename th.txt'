@@ -374,3 +374,11 @@ whatever happens on browser called event !
 
 DOM: document object model
 Window :
+
+
+declate 1 product json array :
+[
+    {id,price,name,qty}
+]
+
+input type price: 50 --> 1 rs 50 rs products --> ocnsole...

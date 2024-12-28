@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./dice.js"></script>
+    <style>
+      #dice {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px; /* Adjust as needed */
+        height: 100px; /* Adjust as needed */
+        border: 1px solid #000;
+        font-size: 2rem; /* Adjust font size as needed */
+      }
+      #dice span {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <div
+        id="dice"
+        style="
+          color: white;
+          background-color: black;
+          height: 170px;
+          width: 170px;
+          border-radius: 10px;
+        "
+      ></div>
+      <button onclick="roll()">roll</button>
+    </center>
+    
+  </body>
+</html>

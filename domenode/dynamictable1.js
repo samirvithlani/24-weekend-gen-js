@@ -19,23 +19,28 @@ var employees = [
     },
 ]
 
-const tbody = document.getElementById("tbody")
 
+window.addEventListener("DOMContentLoaded",()=>{
 for(let i=0;i<employees.length;i++){
+    createRow(employees[i])
+}
+})
+const createRow =(employee)=>{
 
+    const tbody = document.getElementById("tbody")
     const tr = document.createElement("tr");
     const idTd = document.createElement("td")
-    idTd.innerHTML=employees[i].id //1//2//3
+    idTd.innerHTML=employee.id //1//2//3
 
     const nameTd = document.createElement("td")
-    nameTd.innerHTML = employees[i].name
+    nameTd.innerHTML = employee.name
 
     const ageTd = document.createElement("td")
-    ageTd.innerHTML = employees[i].age
+    ageTd.innerHTML = employee.age
 
     const statusTd = document.createElement("td")
     //statusTd.innerHTML = employees[i].status
-    statusTd.innerHTML = employees[i].status == true? "Active":"Not Active"
+    statusTd.innerHTML = employee.status == true? "Active":"Not Active"
 
     tr.appendChild(idTd)
     tr.appendChild(nameTd)

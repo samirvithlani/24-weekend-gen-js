@@ -42,9 +42,32 @@ const createRow =(employee)=>{
     //statusTd.innerHTML = employees[i].status
     statusTd.innerHTML = employee.status == true? "Active":"Not Active"
 
+
+    const actionTd = document.createElement("td")
+
+    const detailButton = document.createElement("button")
+    detailButton.innerHTML="Detail"
+    actionTd.appendChild(detailButton)
+    detailButton.className="btn btn-info"
+    detailButton.addEventListener("click",()=>{
+        alert(employee.name)
+    })
+
+    const deleteButton = document.createElement("button")
+    deleteButton.innerHTML="Delete"
+    deleteButton.className="btn btn-danger"
+    deleteButton.style.marginLeft="10px"
+    deleteButton.addEventListener("click",()=>{
+        tr.remove()
+    })
+    
+    actionTd.appendChild(deleteButton)
+
     tr.appendChild(idTd)
     tr.appendChild(nameTd)
     tr.appendChild(ageTd)
     tr.appendChild(statusTd)
+    tr.appendChild(actionTd)
+
     tbody.appendChild(tr)
 }

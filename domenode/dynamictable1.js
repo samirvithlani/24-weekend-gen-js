@@ -28,6 +28,12 @@ for(let i=0;i<employees.length;i++){
 const sortByAge =()=>{
     const tbody  = document.getElementById("tbody")
     tbody.innerHTML=""
+    employees = employees.sort((a,b)=>a.age-b.age)
+    
+    for(let i=0;i<employees.length;i++){
+        createRow(employees[i])
+    }
+    
 }
 const createRow =(employee)=>{
 

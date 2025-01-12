@@ -25,6 +25,10 @@ for(let i=0;i<employees.length;i++){
     createRow(employees[i])
 }
 })
+const sortByAge =()=>{
+    const tbody  = document.getElementById("tbody")
+    tbody.innerHTML=""
+}
 const createRow =(employee)=>{
 
     const tbody = document.getElementById("tbody")
@@ -37,6 +41,8 @@ const createRow =(employee)=>{
 
     const ageTd = document.createElement("td")
     ageTd.innerHTML = employee.age
+
+    
 
     const statusTd = document.createElement("td")
     //statusTd.innerHTML = employees[i].status

@@ -83,3 +83,24 @@ const createRow =(employee)=>{
 
     tbody.appendChild(tr)
 }
+
+
+const searchUser  = ()=>{
+
+    const tbody = document.getElementById("tbody")
+    tbody.innerHTML = ""
+    const txt = document.querySelector("#txt")
+    
+    if(txt.value!==""){
+    employees = employees.filter((emp)=>{
+        return emp.name.includes(txt.value)
+    })
+    
+    for(let i=0;i<employees.length;i++){
+        createRow(employees[i])
+    }
+}
+    
+    
+
+}

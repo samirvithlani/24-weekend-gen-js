@@ -7,16 +7,17 @@ var employees = [
     },
     {
         id:2,
-        name:"shyam",
+        name:"kunj",
         age:24,
         status:true
     },
     {
         id:3,
-        name:"seeta",
+        name:"kunal",
         age:22,
         status:false
     },
+    
 ]
 
 
@@ -84,23 +85,29 @@ const createRow =(employee)=>{
     tbody.appendChild(tr)
 }
 
+// ... spread operator..
+const originalEmployees = [...employees]; // Preserve the original list of employees
 
-const searchUser  = ()=>{
+const searchUser = (event) => {
+    const tbody = document.getElementById("tbody");
+    tbody.innerHTML = ""; // Clear the table
+    const txt = document.querySelector("#txt");
 
-    const tbody = document.getElementById("tbody")
-    tbody.innerHTML = ""
-    const txt = document.querySelector("#txt")
-    
-    if(txt.value!==""){
-    employees = employees.filter((emp)=>{
-        return emp.name.includes(txt.value)
-    })
-    
-    for(let i=0;i<employees.length;i++){
-        createRow(employees[i])
+    if (event.key === "Backspace") {
+        
+        employees = [...originalEmployees]; // Reset to original list
     }
-}
-    
-    
 
-}
+    if (txt.value !== "") {
+        employees = originalEmployees.filter((emp) => {
+            return emp.name.toLowerCase().includes(txt.value);
+        });
+    } else {
+        employees = [...originalEmployees]; // Reset if input is cleared
+    }
+
+    // Display filtered records
+    for (let i = 0; i < employees.length; i++) {
+        createRow(employees[i]);
+    }
+};

@@ -24,7 +24,8 @@ const getData = ()=>{
     var promise = new Promise((resolve,reject)=>{
         //resolve("promise has been resolved...")
         setTimeout(()=>{
-            resolve("promise has been resolved...")
+            //resolve("promise has been resolved...")
+            reject("promise has been rejected..")
         },3000)
     })
 
@@ -32,8 +33,53 @@ const getData = ()=>{
     promise.then((data)=>{
         console.log(data)
     })
+    promise.catch((err)=>{
+        console.log(err)
+    })
     
 
 }
 
-getData()
+//getData()
+
+
+
+
+
+const traficAI = ()=>{
+
+
+    var promise = new Promise((resolve,reject)=>{
+
+        setTimeout(()=>{
+            resolve({car:20,bike:22,cycle:2,total:44})
+        },3000)
+    })
+
+    console.log(promise)
+    promise.then((data)=>{
+        console.log(data)
+    })
+}
+
+
+//traficAI()
+
+const generateQuestions  = ()=>{
+
+
+    var prom = new Promise((resolve,reject)=>{
+
+        setTimeout(()=>{
+            resolve([{id:1,question:"what is java"},{id:2,question:"what is javascript"}])
+        },4000)
+    })
+    console.log(prom)
+    prom.then((questions)=>{
+        console.log(questions)
+    })
+    
+
+}
+
+generateQuestions()
